@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'us-east-2'
         SONARQUBE_URL = "https://sonarcloud.io"
         TRUFFLEHOG_PATH = "/usr/local/bin/trufflehog3"
         JIRA_SITE = "https://lokeynakrn.atlassian.net"
